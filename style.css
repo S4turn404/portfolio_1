@@ -1,0 +1,50 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background:  rgb(224, 224, 255)
+
+}
+
+#heading {
+padding: 10px 40px;
+margin: 0px;
+font-weight: 300;
+color: rgb(83, 90, 229);
+text-transform: uppercase;
+background: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(161, 166, 255));
+box-shadow: 2px 4px rgb(197, 200, 255) ;
+}
+
+
+#heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#heading h1 {
+  margin: 0;
+  margin-right: auto;
+
+}
+
+
+
+.nav a:link {
+  color: rgb(83, 90, 229);
+}
+
+.nav a:visited {
+  color: rgb(83, 90, 229);
+}
+
+.nav a:hover {
+  color: rgb(37, 47, 237);
+}
+
+.nav a:active {
+  color: rgb(161, 166, 255);
+}
+.nav a {
+  text-decoration: none;
+}
+
